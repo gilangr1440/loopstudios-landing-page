@@ -1,0 +1,32 @@
+@import "variables";
+
+body {
+  @at-root .header {
+    background-image: linear-gradient(to right, hsl(0, 0%, 0%, 0.5), hsl(0, 0%, 0%, 0.5)), url(../../images/desktop/image-hero.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 100% auto, 100% auto;
+    aspect-ratio: 144 / 65;
+
+    @at-root .header__title {
+      margin: 0;
+      padding: 20px;
+      width: 400px;
+      top: calc(50% + 5%);
+      left: 6%;
+      transform: translateY(-50%);
+    }
+  }
+
+  @at-root .main {
+    @at-root .main__portfolio {
+      @at-root .main__portfolio-images {
+        @at-root .main__portfolio-container {
+          @at-root .main__portfolio-img_mobile {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

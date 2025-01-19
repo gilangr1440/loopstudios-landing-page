@@ -1,0 +1,59 @@
+@import "variables";
+
+body {
+  @at-root .header {
+    @at-root .navbar {
+      height: 150px;
+
+      @at-root .navbar__navigation {
+        gap: 40px;
+      }
+    }
+
+    @at-root .header__title {
+      top: auto;
+      bottom: 0;
+      font-size: 5em;
+      width: 650px;
+      padding: 40px;
+    }
+  }
+
+  @at-root .main {
+    margin: 150px 0;
+
+    @at-root .main__content {
+      height: 550px;
+      margin: auto auto 100px;
+
+      @at-root .main__vr-image_desktop {
+        width: 62%;
+      }
+
+      @at-root .main__text-container {
+        width: 38%;
+        padding: 80px;
+
+        @at-root .main__title {
+          font-size: 3em;
+        }
+      }
+    }
+
+    @at-root .main__portfolio {
+      row-gap: 70px;
+
+      @at-root .main__portfolio-title {
+        font-size: 3em;
+      }
+    }
+  }
+
+  @at-root .footer {
+    gap: 30px;
+
+    @at-root .footer__navigation {
+      gap: 40px;
+    }
+  }
+}

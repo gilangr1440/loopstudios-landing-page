@@ -1,0 +1,48 @@
+@import "variables";
+
+body {
+  @at-root .header {
+    @at-root .navbar {
+      padding: 0 10%;
+      height: 120px;
+
+      @at-root .navbar__logo {
+        width: 180px;
+      }
+    }
+
+    @at-root .header__title {
+      font-size: 3.5em;
+      width: 500px;
+      padding: 30px;
+      left: 10%;
+    }
+  }
+
+  @at-root .main {
+    margin: 120px 0;
+
+    @at-root .main__content {
+      width: 80%;
+      height: 420px;
+      margin: auto auto 80px;
+
+      @at-root .main__vr-image_desktop {
+        width: 55%;
+      }
+
+      @at-root .main__text-container {
+        width: 45.5%;
+      }
+    }
+
+    @at-root .main__portfolio {
+      width: 80%;
+      row-gap: 60px;
+    }
+  }
+
+  @at-root .footer {
+    padding: 50px 10%;
+  }
+}

@@ -1,0 +1,39 @@
+.navbar {
+  padding: 0 10%;
+  height: 120px;
+}
+.navbar__logo {
+  width: 180px;
+}
+
+.header__title {
+  font-size: 3.5em;
+  width: 500px;
+  padding: 30px;
+  left: 10%;
+}
+
+.main {
+  margin: 120px 0;
+}
+.main__content {
+  width: 80%;
+  height: 420px;
+  margin: auto auto 80px;
+}
+.main__vr-image_desktop {
+  width: 55%;
+}
+
+.main__text-container {
+  width: 45.5%;
+}
+
+.main__portfolio {
+  width: 80%;
+  row-gap: 60px;
+}
+
+.footer {
+  padding: 50px 10%;
+}/*# sourceMappingURL=laptopL.css.map */

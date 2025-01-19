@@ -1,0 +1,19 @@
+.header {
+  background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)), url(../../images/desktop/image-hero.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: 100% auto, 100% auto;
+  aspect-ratio: 144/65;
+}
+.header__title {
+  margin: 0;
+  padding: 20px;
+  width: 400px;
+  top: 55%;
+  left: 6%;
+  transform: translateY(-50%);
+}
+
+.main__portfolio-img_mobile {
+  width: 100%;
+}/*# sourceMappingURL=tablet.css.map */

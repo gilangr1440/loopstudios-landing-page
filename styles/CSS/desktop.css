@@ -1,0 +1,47 @@
+.navbar {
+  height: 150px;
+}
+.navbar__navigation {
+  gap: 40px;
+}
+
+.header__title {
+  top: auto;
+  bottom: 0;
+  font-size: 5em;
+  width: 650px;
+  padding: 40px;
+}
+
+.main {
+  margin: 150px 0;
+}
+.main__content {
+  height: 550px;
+  margin: auto auto 100px;
+}
+.main__vr-image_desktop {
+  width: 62%;
+}
+
+.main__text-container {
+  width: 38%;
+  padding: 80px;
+}
+.main__title {
+  font-size: 3em;
+}
+
+.main__portfolio {
+  row-gap: 70px;
+}
+.main__portfolio-title {
+  font-size: 3em;
+}
+
+.footer {
+  gap: 30px;
+}
+.footer__navigation {
+  gap: 40px;
+}/*# sourceMappingURL=desktop.css.map */
